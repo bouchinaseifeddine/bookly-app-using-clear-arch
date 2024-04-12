@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../../../../../core/utils/styles.dart';
+import '../../../../../core/utils/functions/styles.dart';
 import '../../../../home/presentation/views/widgets/best_seller_list_view_item.dart';
 import 'custom_search_text_field.dart';
 
