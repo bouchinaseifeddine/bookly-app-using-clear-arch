@@ -4,7 +4,7 @@ import 'package:go_router/go_router.dart';
 
 import '../../../../../constants.dart';
 import '../../../../../core/utils/functions/assets.dart';
-import '../../../../../core/utils/functions/styles.dart';
+import '../../../../../core/utils/styles.dart';
 import 'book_rating.dart';
 
 class BookListViewItem extends StatelessWidget {
