@@ -3,7 +3,6 @@ import 'package:bookly/Features/home/presentation/manager/featured_books_cubit/f
 import 'package:bookly/Features/home/presentation/views/widgets/featured_list_view.dart';
 import 'package:bookly/Features/home/presentation/views/widgets/featured_list_view_loading_indicator.dart';
 import 'package:bookly/core/utils/functions/build_error_snackbar.dart';
-import 'package:bookly/core/widgets/custom_fading_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

@@ -1,8 +1,6 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 
-import '../../../../../core/utils/functions/assets.dart';
-
 class CustomBookImage extends StatelessWidget {
   const CustomBookImage({Key? key, required this.image}) : super(key: key);
 

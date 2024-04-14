@@ -57,7 +57,7 @@ class BookListViewItem extends StatelessWidget {
                     height: 3,
                   ),
                   Text(
-                    book.authorName ?? '',
+                    book.authorName,
                     style: Styles.textStyle14,
                   ),
                   const SizedBox(

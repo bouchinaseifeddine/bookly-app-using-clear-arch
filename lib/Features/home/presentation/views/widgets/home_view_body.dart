@@ -2,7 +2,6 @@ import 'package:bookly/Features/home/presentation/views/widgets/best_seller_list
 import 'package:bookly/Features/home/presentation/views/widgets/featured_books_list_view_bloc_consumer.dart';
 import 'package:bookly/core/utils/styles.dart';
 import 'package:flutter/material.dart';
-import 'best_seller_list_view.dart';
 import 'custom_app_bar.dart';
 
 class HomeViewBody extends StatelessWidget {

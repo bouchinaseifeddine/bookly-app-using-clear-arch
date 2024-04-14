@@ -8,6 +8,7 @@ import 'volume_info.dart';
 class BookModel extends BookEntity {
   String? kind;
   @override
+  // ignore: override_on_non_overriding_member
   String? id;
   String? etag;
   String? selfLink;
