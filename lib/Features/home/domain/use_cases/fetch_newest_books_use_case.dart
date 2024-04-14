@@ -4,16 +4,16 @@ import 'package:bookly/core/errors/failure.dart';
 import 'package:bookly/core/use_cases/use_cases.dart';
 import 'package:dartz/dartz.dart';
 
-class FetchNewestBooksUseCase extends UseCase<List<BookEntity>, void> {
+class FetchNewestBooksUseCase extends UseCase<List<BookEntity>, int> {
   final HomeRepo homeRepo;
 
   FetchNewestBooksUseCase({required this.homeRepo});
 
   @override
-  Future<Either<Failure, List<BookEntity>>> call([void param]) async {
+  Future<Either<Failure, List<BookEntity>>> call([int param = 0]) async {
     // in this case we dont need the use case
     // but when we need to add extra code like (request permission / check for something ..)
     // we can add it here
-    return await homeRepo.fetchNewestBooks();
+    return await homeRepo.fetchNewestBooks(pageNumber: param);
   }
 }
